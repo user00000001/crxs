@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Chapter 1 (MV3) Hello World!",
+  "version": "1.0",
+  "description": "This is Chapter 1",
+  "icons": {
+    "128": "icons/icon_128.png",
+    "48": "icons/icon_48.png",
+    "16": "icons/icon_16.png"
+  },
+  "action": {
+    "default_title": "I am Chapter 1",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "icons/icon_32.png"
+    }
+  }
+}
