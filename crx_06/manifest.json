@@ -1,18 +1,24 @@
 {
-  "name": "Chapter 7 (MV3) close other tabs",
+  "name": "Chapter 6 (MV3) contextMenus",
   "version": "1.0",
   "manifest_version": 3,
-  "description": "This is Chapter 7",
+  "description": "This is Chapter 6",
   "icons": {
     "128": "icons/icon_128.png",
     "48": "icons/icon_48.png",
     "16": "icons/icon_16.png"
   },
   "action": {
-    "default_title": "I am Chapter 7",
+    "default_title": "I am Chapter 6",
     "default_popup": "popup.html",
     "default_icon": {
       "32": "icons/icon_32.png"
     }
+  },
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "background.js"
   }
 }
